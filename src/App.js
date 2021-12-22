@@ -121,6 +121,7 @@ class App extends Component {
     this.toggleSidebar = this.toggleSidebar.bind(this);
     this.toggleView = this.toggleView.bind(this);
     this.toggleShowBuilder = this.toggleShowBuilder.bind(this);
+    this.removeBlock = this.removeBlock.bind(this);
     this.copyToClipboard = this.copyToClipboard.bind(this);
     this.keyboardNavigation = this.keyboardNavigation.bind(this);
     this.markupRef = React.createRef();
