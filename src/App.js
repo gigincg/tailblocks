@@ -99,7 +99,7 @@ class App extends Component {
     super(props);
     this.state = {
       builder: [],
-      showBuilder: false,
+      showBuilder: true,
       ready: false,
       darkMode: false,
       copied: false,
